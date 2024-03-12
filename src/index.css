@@ -1,0 +1,200 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+:root
+{
+    --main-color:#0e6d0e;
+    --light-color:#f0f3f2;
+    --shadow: rgba(147, 163, 179, 0.2) 0px 2px 4px -1px,rgba(169, 183, 197, 0.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+    --font-family:'Encode Sans Expanded', sans-serif;
+    --rating-color:#ffc908;
+}
+
+body{
+    font-family: var(--font-family) !important;
+}
+.path-Link
+{
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.dropdown-item:hover
+{
+ background-color: var(--light-color);
+ transition: .5s;
+}
+.shadow
+{
+  box-shadow: var(--shadow);
+}
+.loading{
+  height: 500px;
+  width: 100%;
+}
+.rating-color
+{
+    color: var(--rating-color);
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+.SignOut
+{
+  border: none;
+}
+.SignOut:hover
+{
+  color: var(--main-color);
+}
+a , a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.h-150
+{
+  height: 150px;
+}
+.img-h
+{
+  height: 300px;
+}
+.product{
+  box-shadow: var(--shadow);
+  border: solid 1px transparent;
+  transition: .3s;
+ 
+}
+.product:hover
+{
+    border-color: var(--main-color);
+}
+.product .probtn 
+{
+  background-color: var(--main-color);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: -130px;
+  transition: .5s;
+  margin: 5px;
+}
+.product .probtn:hover 
+{
+  color: var(--light-color);
+}
+.product:hover .probtn
+{
+  left: 0px;
+}
+.fa-heart
+{
+  right: -50px;
+  margin: 5px;
+  transition: .5s;
+}
+.product:hover .fa-heart
+{
+  right: 0px;
+}
+.font-sm
+{
+    font-size: 14px;
+}
+.text-main
+{
+    color: var(--main-color);
+}
+.bg-main
+{
+    background-color: var(--main-color) !important;
+}
+.color-main
+{
+  color: var(--main-color) !important;
+}
+.bg-main-light 
+{
+    background-color: var(--light-color) !important;
+}
+.color-main-light 
+{
+  color: var(--light-color) !important;
+}
+.card-details
+{
+  box-shadow: var(--shadow);
+  border: none !important;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.details-btn
+{
+  background-color: var(--main-color);
+  text-align: center;
+  padding: 5px;
+  margin-top: 100px;
+  font-weight: bolder;
+  transition: .5s;
+}
+.details-btn:hover 
+{
+  color: var(--light-color);
+}
+.slider-Height
+{
+  height: 200px;
+}
+/***cart style*****/
+.close-btn
+{
+  background-color: var(--main-color);
+  border: 3px solid var(--main-color);
+  transition: .2s;
+}
+.close-btn:hover 
+{
+  background-color: var(--light-color);
+  color: var(--main-color);
+}
+.count-btn
+{
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  transition: .2s;
+}
+.count-btn:hover 
+{
+  background-color: var(--light-color);
+  color: var(--main-color);
+}
+.slider-box 
+{
+  box-shadow: var(--shadow);
+  width: 100%;
+  overflow: hidden;
+}
+/* *******category******* */
+
+.max-height 
+{
+  height: 390px;
+}
+/* ********footer******** */
+
+.master
+{
+  width: 50px;
+}
+.store
+{
+  width: 100px;
+}
+/* *******forget-content****** */
+.forget-content
+{
+  margin: 200px 0;
+  padding: 100px 100px;
+}
